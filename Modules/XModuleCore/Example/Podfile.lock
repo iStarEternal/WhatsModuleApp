@@ -1,0 +1,16 @@
+PODS:
+  - XModuleCore (0.1.0)
+
+DEPENDENCIES:
+  - XModuleCore (from `../`)
+
+EXTERNAL SOURCES:
+  XModuleCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XModuleCore: 74312a18ad3aad88054a0fb9436cf69021357722
+
+PODFILE CHECKSUM: 8c26a3ce0f331e43412310d9bb6a3812df889720
+
+COCOAPODS: 1.16.2

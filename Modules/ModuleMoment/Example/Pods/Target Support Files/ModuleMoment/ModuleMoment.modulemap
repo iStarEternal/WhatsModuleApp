@@ -1,0 +1,6 @@
+framework module ModuleMoment {
+  umbrella header "ModuleMoment-umbrella.h"
+
+  export *
+  module * { export * }
+}

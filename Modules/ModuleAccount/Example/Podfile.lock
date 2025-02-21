@@ -1,0 +1,16 @@
+PODS:
+  - ModuleAccount (0.1.0)
+
+DEPENDENCIES:
+  - ModuleAccount (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleAccount:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleAccount: 0e217852567f9c55e960a936daac406a1732cc7a
+
+PODFILE CHECKSUM: 0699c613499d51148c6bff24ab5f2fdbd00457ef
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module Pods_ModuleAccountInterface_Tests {
+  umbrella header "Pods-ModuleAccountInterface_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

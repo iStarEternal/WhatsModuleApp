@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ModuleMomentInterface_Example' do
+  pod 'ModuleMomentInterface', :path => '../'
+
+  target 'ModuleMomentInterface_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

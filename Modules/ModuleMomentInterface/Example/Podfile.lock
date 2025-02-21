@@ -1,0 +1,16 @@
+PODS:
+  - ModuleMomentInterface (0.1.0)
+
+DEPENDENCIES:
+  - ModuleMomentInterface (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleMomentInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleMomentInterface: ce29cc3338657c3e71cd339e6df19fe52199bb2e
+
+PODFILE CHECKSUM: 466c52ea9a918dc628da46b568b64009082f453a
+
+COCOAPODS: 1.16.2

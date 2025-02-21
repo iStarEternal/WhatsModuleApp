@@ -1,0 +1,6 @@
+framework module ModuleChat {
+  umbrella header "ModuleChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

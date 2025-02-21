@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ModuleChatInterface_Example' do
+  pod 'ModuleChatInterface', :path => '../'
+
+  target 'ModuleChatInterface_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

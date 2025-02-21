@@ -1,0 +1,6 @@
+framework module ModuleMomentInterface {
+  umbrella header "ModuleMomentInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

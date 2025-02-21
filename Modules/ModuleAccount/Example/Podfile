@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ModuleAccount_Example' do
+  pod 'ModuleAccount', :path => '../'
+
+  target 'ModuleAccount_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

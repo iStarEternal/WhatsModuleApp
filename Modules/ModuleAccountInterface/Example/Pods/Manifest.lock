@@ -1,0 +1,16 @@
+PODS:
+  - ModuleAccountInterface (0.1.0)
+
+DEPENDENCIES:
+  - ModuleAccountInterface (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleAccountInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleAccountInterface: 291e6654433dfdf8557021b5f81750ac504456ac
+
+PODFILE CHECKSUM: 4a1becf3ff67da9ee6adbd55e26ba8fb93fc594f
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,16 @@
+PODS:
+  - ModuleMoment (0.1.0)
+
+DEPENDENCIES:
+  - ModuleMoment (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleMoment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleMoment: 363ae7a1e71e3b1a232a83b089313bc34a6cfe14
+
+PODFILE CHECKSUM: e0bbeb4c7dd328ec7e00d2e97262f62e428a9eb6
+
+COCOAPODS: 1.16.2

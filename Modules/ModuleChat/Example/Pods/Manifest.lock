@@ -1,0 +1,16 @@
+PODS:
+  - ModuleChat (0.1.0)
+
+DEPENDENCIES:
+  - ModuleChat (from `../`)
+
+EXTERNAL SOURCES:
+  ModuleChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuleChat: c8f89d1eaff8c3e101b1b2004f75431abb333c58
+
+PODFILE CHECKSUM: 2bba8f09e75c7f139cec591222737cbef69bdab1
+
+COCOAPODS: 1.16.2

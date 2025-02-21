@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ModuleMoment_Example' do
+  pod 'ModuleMoment', :path => '../'
+
+  target 'ModuleMoment_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
