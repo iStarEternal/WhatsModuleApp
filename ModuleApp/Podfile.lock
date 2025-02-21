@@ -1,0 +1,74 @@
+PODS:
+  - ModuleAccount (0.1.0):
+    - ModuleAccountInterface
+    - ModuleChatInterface
+    - ModuleMomentInterface
+    - SnapKit
+    - XModuleCore
+  - ModuleAccountInterface (0.1.0):
+    - XModuleCore
+  - ModuleChat (0.1.0):
+    - ModuleAccountInterface
+    - ModuleChatInterface
+    - ModuleMomentInterface
+    - SnapKit
+    - XModuleCore
+  - ModuleChatInterface (0.1.0):
+    - XModuleCore
+  - ModuleMoment (0.1.0):
+    - ModuleAccountInterface
+    - ModuleChatInterface
+    - ModuleMomentInterface
+    - SnapKit
+    - XModuleCore
+  - ModuleMomentInterface (0.1.0):
+    - XModuleCore
+  - SnapKit (5.7.1)
+  - Swinject (2.9.1)
+  - XModuleCore (0.1.0):
+    - Swinject
+
+DEPENDENCIES:
+  - ModuleAccount (from `../Modules/ModuleAccount`)
+  - ModuleAccountInterface (from `../Modules/ModuleAccountInterface`)
+  - ModuleChat (from `../Modules/ModuleChat`)
+  - ModuleChatInterface (from `../Modules/ModuleChatInterface`)
+  - ModuleMoment (from `../Modules/ModuleMoment`)
+  - ModuleMomentInterface (from `../Modules/ModuleMomentInterface`)
+  - XModuleCore (from `../Modules/XModuleCore`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - Swinject
+
+EXTERNAL SOURCES:
+  ModuleAccount:
+    :path: "../Modules/ModuleAccount"
+  ModuleAccountInterface:
+    :path: "../Modules/ModuleAccountInterface"
+  ModuleChat:
+    :path: "../Modules/ModuleChat"
+  ModuleChatInterface:
+    :path: "../Modules/ModuleChatInterface"
+  ModuleMoment:
+    :path: "../Modules/ModuleMoment"
+  ModuleMomentInterface:
+    :path: "../Modules/ModuleMomentInterface"
+  XModuleCore:
+    :path: "../Modules/XModuleCore"
+
+SPEC CHECKSUMS:
+  ModuleAccount: 9d478d0fe56024dbbb635e6f12b71eb4987ad019
+  ModuleAccountInterface: cd58f748b2325f30133e7396e4b15626c7a3cbc2
+  ModuleChat: 38bcf7f35b34e6674a685b045f57a7701c14ba29
+  ModuleChatInterface: 0d71f252fcb736265399b4cd5648f5787eb811a3
+  ModuleMoment: 1d4944e03c7e633b62fb0f1ad7b2d0db4b5edfca
+  ModuleMomentInterface: 7666e0787861cc56cfcb1b628832746836f2949c
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Swinject: a827d508c6270da03ec74e558e728917a888fa9b
+  XModuleCore: 4f09696d667783c90b69f7faba2f644f9cb94a5b
+
+PODFILE CHECKSUM: 2d35321cddaf4d91f8e493e7e867cc16d3e9c049
+
+COCOAPODS: 1.16.2

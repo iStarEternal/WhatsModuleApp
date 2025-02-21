@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+use_frameworks!
+
+target 'ModuleApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  
+
+  pod 'XModuleCore', :path => '../Modules/XModuleCore'
+  
+  pod 'ModuleAccount', :path => '../Modules/ModuleAccount'
+  pod 'ModuleAccountInterface', :path => '../Modules/ModuleAccountInterface'
+  
+  pod 'ModuleChat', :path => '../Modules/ModuleChat'
+  pod 'ModuleChatInterface', :path => '../Modules/ModuleChatInterface'
+
+  pod 'ModuleMoment', :path => '../Modules/ModuleMoment'
+  pod 'ModuleMomentInterface', :path => '../Modules/ModuleMomentInterface'
+  
+
+  target 'ModuleAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  
+  post_install do |installer|
+    # --- ↓ 将所有Pods版本改为12.0
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "13.0"
+      end
+    end
+    # --- ↑ ---
+  end
+end
